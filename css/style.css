@@ -1,6 +1,6 @@
 /*header*/
 html {
-  scroll-padding-top: 75px;
+  scroll-padding-top: 300px;
 }
 body{
     background-color:#EEEEEE;
@@ -601,6 +601,9 @@ footer img:nth-child(3):hover{
     height: 590px;
 }
 @media screen and (max-width:530px) {
+  html {
+    scroll-padding-top: 300;
+  }
 
   header{
     position: fixed;
@@ -695,10 +698,11 @@ footer img:nth-child(3):hover{
   font-size: 9px;
 }
 .contact-wrapper-inner p:nth-child(1) a{
-  font-size: 24px;}
-  #experince-wrapper{
-      height: 590px;
-  }
+  font-size: 24px;
+}
+
+#experince-wrapper{
+  height: 590px;
 }
 
 .or{
@@ -712,7 +716,6 @@ footer img:nth-child(3):hover{
 }
 }
 
-}
 @media screen and (max-width:430px) {
 
 .title{
